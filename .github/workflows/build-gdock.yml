@@ -1,6 +1,6 @@
 #=================================================
 #   Description: Build G-DOCK FROM LEAN'S LEDE
-#   Author: J
+#   Author: Jk
 #=================================================
 
 name: Build G-DOCK
@@ -8,7 +8,7 @@ name: Build G-DOCK
 on: 
   release:
     types: [published]
-  push:
+  #push:
     branches: 
       - master
 
